@@ -11,6 +11,7 @@ resources:
 variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
+  tag: '$(Build.BuildId)'
 
 stages:
 - stage: Build
